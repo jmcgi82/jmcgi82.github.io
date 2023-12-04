@@ -32,6 +32,9 @@ public class Party {
     @Column(name="party-phone")
     private String partyPhone;
 
+    @Column(name="dietary-restrictions")
+    private String dietaryRestrictions;
+
     @Column(name="create-time")
     @CreationTimestamp
     private Date createTime;
