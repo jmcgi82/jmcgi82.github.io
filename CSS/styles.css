@@ -122,8 +122,8 @@ body {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 768px) {
-    .entry {
-        height: 70vh;
+@media (max-width: 768px) {
+    .entry > img {
+        height: 20vh;
     }
 }
