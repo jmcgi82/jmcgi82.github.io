@@ -42,12 +42,11 @@ body {
 
 .entry {
     text-align: center;
-    height: 120vh;
 }
 
 .entry > img {
     max-width: 50%;
-    height: 40%;
+    height: 50vh;
 }
 
 .entry > img:hover {
