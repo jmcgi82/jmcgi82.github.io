@@ -1,0 +1,13 @@
+load data
+display initial data
+
+#create a roster object to hold all students
+Roster class = roster()
+
+loop through data, add students to the roster
+print roster
+print average for each student
+print students by software program
+remove student with specific id
+
+print results

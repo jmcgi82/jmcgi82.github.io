@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <script src="../SCRIPT/scrip.js"></script>
+</head>
+
+<body onload="getPics()">
+    <!-- Image -->
+    <div class="image">
+        <img src="./Images/professional-pic.jpg" title="James Mcgill Portrait">
+    </div>
+    <!-- Title -->
+    <div class="title">
+        <h3>James McGill - Software Engineer</h3>
+    </div>
+    <h4>Bachelor in Computer Science - Western Governors University</h4>
+    
+    <div>
+        <h5>706.649.7466 - <a href="https://gmail.com/" target="_blank">james.mcgill0201@gmail.com</a></h5>
+    </div>
+    <div class="row links">
+        <a href="https://github.com/jmcgi82" target="_blank">Git Hub</a>
+        <a href="https://www.linkedin.com/in/james-mcgill-a81ab827a/" target="_blank">LinkedIn</a>
+        <a href="../Resume.docx" download>Download Resume</a>
+    </div>
+    <!-- Qualifications/About Me -->
+    <div class="row">
+        <div class="col-2"> &nbsp</div>
+        <div class="about col-8">
+            Hi, my name is James Mcgill and I am a new software engineer. I have recently graduated from Western
+            Governors University with a Bachelor's degree in Computer Science.
+            Through, my time at WGU, and my experiences prior to starting, I have a resevoir of experiences to pull from
+            when writing clean and efficient code. Some of my skills and knowledge areas, to list a few,
+            include: Docker, Spring Boot, Angular, Machine Learning, Quality Assurance, Algorithms, and Data Management.
+            I have worked on several projects and documents and below I have listed some of my most memorable.
+        </div>
+    </div>
+    <!-- Projects -->
+    <div class="projects">
+        <div class="col-1">&nbsp</div>
+        <h2 class="col-10">Projects</h2>
+        <div class="proj-grid row">
+            <div id="fullpage" onclick="this.style.display='none';"></div>
+            <div class="entry col-6">
+                <!-- Image -->
+
+                <img class="enlarge" title="Package Delivery Project Sample Picture"
+                    src="../portfolio/Distance Project/Screenshot 2023-12-06 125513.png">
+
+                <!-- Title -->
+                <h2>Package Delivery Project</h2>
+                <!-- Problem -->
+                <div class="info"><b>The Problem:</b>
+                    <br />
+                    <br />
+                    The Western Governors University Parcel Service (WGUPS) needs to determine an efficient route and
+                    delivery distribution for their daily local deliveries (DLD) because packages are not currently
+                    being consistently delivered by their promised deadline. The Salt Lake City DLD route has three
+                    trucks, two drivers, and an average of 40 packages to deliver each day. Each package has specific
+                    criteria and delivery requirements that are listed.
+
+
+
+                </div>
+                <!-- Solution/What this means to me -->
+                <div class="info"><br /><b>The Solution:</b>
+                    <br />
+                    <br />
+                    This was one of my first algorithms projects, and thus completing it challenged me. In order to
+                    solve this problem, I created a
+                    linked list to store all locations and packages. Each location had access to all neighbor location,
+                    and had a customer add location method
+                    that used insertion sort to automatically sort the list each time a node was added, that way the
+                    neighbor locations would always be listed
+                    closest to farthest. <br /> I then used a modified nearest neighbor algorithm to create the
+                    solution. The algorithm search each nearest neighbor and checked
+                    if it had already been delivered to. When the algorithm found an available neighbor, it added all
+                    packages from that neighbor to an appropriate truck
+                    based on any special conditions or requirements.
+
+
+
+                </div>
+            </div>
+            <div class="entry col-6">
+                <!-- Image -->
+                <img class="enlarge" title="First C project Sample picture" src="../portfolio/C++/c.png">
+
+                <!-- Title -->
+                <h2>First C++ Project</h2>
+                <!-- Problem -->
+                <div class="info"><b>The Problem:</b>
+                    <br />
+                    <br />
+                    You are hired as a contractor to help a university migrate an existing student system to a new
+                    platform using C language. Since the application already exists, its requirements exist as well,
+                    and they are outlined in the next section. You are responsible for implementing the part of the
+                    system based on these requirements. A list of data is provided as part of these requirements. This
+                    part of the system is responsible for reading and manipulating the provided data.
+
+
+
+                </div>
+                <!-- Solution/What this means to me -->
+                <div class="info"><br /><b>The Solution:</b>
+                    <br />
+                    <br />
+                    This was my first experience with C, and it definitely has a learning curve. I had a lot of prior
+                    experience with java and other OO Languages,
+                    but the pointers in C definitely made things difficult. This is why I included this more simply
+                    project in my list, this was a memorable and challenging project
+                    as I slowly learned the power behind C.<br />
+                    This project used regular expressions to parse data and clean it into usable strings that were then
+                    used to create a student object. The students
+                    were then added to a roster. The roster was used for validation or emails, student Ids, and
+                    calculating average gpa.
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="proj-grid row">
+            <div class="entry col-6">
+                <!-- Image -->
+
+                <img class="enlarge" title="Spring Boot and thymeleaf sample picture"
+                    src="../portfolio/Spring - thymeleaf/Screenshot 2023-12-06 132003.png">
+
+                <!-- Title -->
+                <h2>Spring Boot and Thymeleaf</h2>
+                <!-- Problem -->
+                <div class="info"><b>The Problem:</b>
+                    <br />
+                    <br />
+                    You are working for a company that licenses and customizes a software application to keep track of
+                    inventory in stores. Your job as a software developer is to customize this application to meet a
+                    specific customer’s needs. You will choose any type of customer you would like, but it must sell a
+                    product composed of parts. An example of products versus parts would be a customer that’s a bicycle
+                    shop: a bicycle is a product, and a set of two matching wheels is a part
+
+
+
+                </div>
+                <!-- Solution/What this means to me -->
+                <div class="info"><br /><b>The Solution:</b>
+                    <br />
+                    <br />
+                    One of the biggest questions I had always had was, "How do things like php or java work with html?"
+                    This project
+                    was my first answer. <br />
+                    In this project, I used simple spring boot controllers, entities, CRUD repositories, services, and
+                    validations to create the backend for a simple GUI.
+                    The project used thymeleaf to display the front end, so at this point there was not any RESTful
+                    services, but it was a great introduction to persistence.
+
+
+                </div>
+            </div>
+            <div class="entry col-6">
+                <!-- Image -->
+                <img class="enlarge" title="Full Stack with REST Api Application sample picture"
+                    src="../portfolio/travel project/Screenshot 2023-12-06 133431.png">
+
+                <!-- Title -->
+                <h2>Full Stack REST Application</h2>
+                <!-- Problem -->
+                <div class="info"><b>The Problem:</b>
+                    <br />
+                    <br />
+                    A travel agency has recently launched a complete overhaul of their front-end vacation bookings
+                    application using Angular and JavaScript. Lately, the front-end engineers have encountered various
+                    undocumented bugs when sending requests and fetching data from the back-end. Since the back-end was
+                    built in the early 1990s and the original developer has since retired and can no longer help
+                    troubleshoot, the existing team is concerned about the growing tech debt and lack of ongoing
+                    support. Your chief technology officer (CTO) decided to create a project to port over any
+                    mission-critical functionalities to a modern framework and has selected you, a software developer in
+                    Java, to start developing the minimally viable product (MVP) to migrate the legacy back-end to the
+                    modern Spring framework.
+
+
+
+                </div>
+                <!-- Solution/What this means to me -->
+                <div class="info"><br /><b>The Solution:</b>
+                    <br />
+                    <br />
+                    This is my first project where all the code was my own. I wrote the angular front end (using
+                    typescript, html, and css), the spring boot backend, and constructed
+                    the MySQL database for persistence. This project, though not heavy on logic, was the first time I
+                    developed a application and required a lot of planning. I had several
+                    entities (Vacation, Excursion, Customer, Cart, CartItem, ect.) each with varying relationships to
+                    the other entities. This project is where I really learned the importance
+                    of design. For example, I had to create detailed UML and ERD to keep my backend organized and I had
+                    to use the UML to create the database tables.
+
+
+                </div>
+            </div>
+        </div>
+        <div class="proj-grid row">
+            <div class="entry col-6">
+                <!-- Image -->
+
+                <img class="enlarge" title="Multithreading and Internationalization sample picture"
+                    src="../portfolio/multithreading/Screenshot 2023-12-06 134105.png">
+
+                <!-- Title -->
+                <h2>Multithreading and Internationalization</h2>
+                <!-- Problem -->
+                <div class="info"><b>The Problem:</b>
+                    <br />
+                    <br />
+                    You are working for a company located in Toronto, Canada, that schedules hotel reservations. As a
+                    software developer, your job is to modify the Landon Hotel scheduling application to meet new
+                    requirements under new management. You will choose any application user you would like.
+
+
+                </div>
+                <!-- Solution/What this means to me -->
+                <div class="info"><br /><b>The Solution:</b>
+                    <br />
+                    <br />
+                    One of the more important concepts in optimization is multithreading. This project had requirements
+                    of meeting scheduling, displaying prices in different currencies,
+                    and detecting time zones to change currency. This project still implemented angular and spring boot,
+                    but it also used java multithreading to determine time zones and
+                    perform localization. Another thread was used to determine meeting times based on location. This was
+                    not a super demanding project, but it ensured that I was confortable
+                    with localization, Internationalization, and multithreading.
+
+
+                </div>
+            </div>
+            <div class="entry col-6">
+                <!-- Image -->
+                <img class="enlarge" title="Machine Learning Sample Picture"
+                    src="../portfolio/Machine Learning/Screenshot 2023-12-06 134552.png">
+
+                <!-- Title -->
+                <h2>Machine Learning<a class="hon" title="Honored in the WGU Hall of Excellence">**</a></h2>
+                <!-- Problem -->
+                <div class="info"><b>The Problem:</b>
+                    <br />
+                    <br />
+                    Liquor management is sometimes difficult due to innacurate ordering and point of sale prices. This
+                    application will have two requirements:<br />
+                    <ol>
+                        <li>Provide visualization of data</li>
+                        <li>Provide recommendations for sale prices based on a alcohol content and target profit
+                            margins.</li>
+                    </ol>
+                </div>
+                <!-- Solution/What this means to me -->
+                <div class="info"><br /><b>The Solution:</b>
+                    <br />
+                    <br />
+                    This problem was very exciting and intimidating, this was one of my first real-world problem I
+                    solved using machine learning. Previously, I had used things
+                    like <a href="https://www.coppeliarobotics.com/" target="_blank">coppeliasim</a> and <a
+                        href="https://home.pandorabots.com/home.html" target="_blank">pandorabots</a> to create
+                    machine learning tools. However, this used python do several things: Load data from a database,
+                    clean the raw data, plot the data on several different graphs, and use a ordinary
+                    least squares algorithm to draw a line of regression and use that line to make predictions.
+
+                </div>
+            </div>
+        </div>
+        <div class="proj-grid row">
+            <div class="entry col-6">
+                <!-- Image -->
+
+                <img class="enlarge" src="../portfolio/Data Management/Screenshot 2023-12-07 024429.png">
+
+                <!-- Title -->
+                <h2>Database Management</h2>
+                <!-- Problem -->
+                <div class="info"><b>The Problem:</b>
+                    <br />
+                    <br />
+                    This project was all about database management. The goal was to create several tables, populate them
+                    with sample data, and perform different
+                    joins, sorts, and other operations on them.
+                </div>
+                <!-- Solution/What this means to me -->
+                <div class="info"><br /><b>The Solution:</b>
+                    <br />
+                    <br />
+                    This project was one of my first introductions to MySQL and postgresSQL, I will admit I found it
+                    very frustrating. I used MySQL scripts to do several things, and to query
+                    hundreds of rows of provided data. I was unable for a while to figure out
+                    how to properly join table from several different tables together. Eventually, I figured it out. I
+                    came up with a solution by creating my own crude version of a
+                    ERD without knowing what I was creating.
+
+                </div>
+            </div>
+            <div class="entry col-6">
+                <!-- Image -->
+                <img class="enlarge" src="../portfolio/Quality Assurance/Screenshot 2023-12-07 024708.png">
+
+                <!-- Title -->
+                <h2>Quality Assurance</h2>
+                <!-- Problem -->
+                <div class="info"><b>The Problem:</b>
+                    <br />
+                    <br />
+                    Create a quality Test plan for a banking company solution to a ticket request. The solution had two
+                    main requirements:
+                    <ol>
+                        <li>If the business is more than 5 years old, the program should request the most recent 5 years
+                            of financial data, excluding the current year.</li>
+                        <li>If the business is less than 5 years old, the program should request every year of
+                            financial data since the business was started. Then, it will request future forecasts until
+                            the total amount of reports is equal to 5.</li>
+                    </ol>
+                </div>
+                <!-- Solution/What this means to me -->
+                <div class="info"><br /><b>The Solution:</b>
+                    <br />
+                    <br />
+                    This project was one of a sequence of proposals/QA plans I wroted. This QA plan was connected to a previously written proposal for the software solution.
+                    The functional requirements, listed above, were needing to be tested as well as non-functional in-scope requirements I listed in the proposal. This assignment
+                    was the last one in the sequence, and I listed it because it really help me to understand just how important testing is and that, the test plan needs to be as 
+                    good as possible, because bugs are going to happen anyways after deployment, but you should try to remove as many as possible.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>

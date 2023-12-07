@@ -1,0 +1,27 @@
+while packages remain:
+	#for the current location, loop through the ordered list of neighbor locations finding the first available location
+	loop through the current location's neighbor locations:
+		if next location is available:
+			set location as next location
+		else:
+			increment to next location
+
+	#add all packages that go to the next location to a temporary list
+	loop through the current locations packages:
+		if the package has not been added to a truck yet:
+			add package to temp list
+			increment to next package
+		else:
+			increment to next package
+
+	#add each package to truck and check for special conditions
+	for each package in temp list:
+		if package has special conditions:
+			check condition
+			if condition is met:
+				add to truck
+			else:
+				skip package
+		else: 
+			add to truck
+	select next truck
